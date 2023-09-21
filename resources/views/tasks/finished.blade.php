@@ -12,7 +12,7 @@
 <body class="container-fluid">
   <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
     <p class="navbar-brand" style="margin:0 auto;">TODOアプリ</p>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
           <a class="nav-link" href="/top">TOP</a>
@@ -23,9 +23,7 @@
       </ul>
     </div>
   </nav>
-        <div class="">
-                <p class="text-center mt-5 font-weight-bold" style="font-size:30px;">完了済タスク</p>
-        </div>
+        <p class="text-center mt-5 font-weight-bold" style="font-size:30px;">完了済タスク</p>
 
         <table class="table" style="margin:0 auto; width:50%;">
           <thead class="thead-light">

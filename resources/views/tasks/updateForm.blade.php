@@ -12,18 +12,17 @@
 <body class="container-fluid">
   <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
     <p class="navbar-brand" style="margin:0 auto;">TODOアプリ</p>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
           <a class="nav-link" href="/top">TOP</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/tasked">完了したタスク</a>
+          <a class="nav-link" href="/finished/task">完了したタスク</a>
         </li>
       </ul>
     </div>
   </nav>
-        <div class="">
                 <p class="text-center mt-5 font-weight-bold" style="font-size:30px;">タスクの編集</p>
                 <form action="/update" method="post">
                   @csrf
@@ -33,7 +32,6 @@
                         編集する
                     </button>
                 </form>
-        </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js?v=1"></script>
 </body>
 

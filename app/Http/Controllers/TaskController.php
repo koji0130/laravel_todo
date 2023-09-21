@@ -26,7 +26,7 @@ class TaskController extends Controller
 
     public function edit($id)
     {
-        $task = Task::find($id);
+        $task = Task::where('id',$id)->first();
         return view('tasks.updateForm',['task' => $task]);
     }
 
